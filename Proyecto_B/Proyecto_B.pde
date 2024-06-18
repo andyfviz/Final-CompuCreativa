@@ -16,7 +16,7 @@ void setup () {
   size (1080, 800, P2D);
   layer1 = createGraphics(1080, 1080, P2D);
   imageMode(CENTER);
-  m1 = loadImage ("prueba03.png");
+  m1 = loadImage ("mascaraA.png");
   minim = new Minim (this);
   music=minim.loadFile("campanas.mp3", 1024);
   music.loop ();
